@@ -1,0 +1,42 @@
+<odoo>
+    <data>
+        <record id="vehicle_1" model="vehicles.vehicle">
+            <field name="license_plate">1-ACK-205</field>
+            <field name="vin_sn">5454541</field>
+            <field name="model_id" ref="fleet.model_astra"/>
+            <field name="employee_id" ref="hr.employee_fpi"/>
+            <field name="state_id" ref="vehicle_state_registered"/>
+        </record>
+
+        <record id="vehicle_2" model="vehicles.vehicle">
+            <field name="license_plate">1-SYN-404</field>
+            <field name="vin_sn">1337</field>
+            <field name="model_id" ref="fleet.model_corsa"/>
+            <field name="employee_id" ref="hr.employee_jth"/>
+            <field name="state_id" ref="vehicle_state_registered"/>
+        </record>
+
+        <record id="vehicle_3" model="vehicles.vehicle">
+            <field name="license_plate">1-BMW-001</field>
+            <field name="vin_sn">54818</field>
+            <field name="model_id" ref="fleet.model_serie1"/>
+            <field name="state_id" ref="vehicle_state_ordered"/>
+        </record>
+
+        <record id="vehicle_4" model="vehicles.vehicle">
+            <field name="license_plate">1-AUD-001</field>
+            <field name="vin_sn">455257985</field>
+            <field name="model_id" ref="fleet.model_a1"/>
+            <field name="employee_id" ref="hr.employee_ngh"/>
+            <field name="state_id" ref="vehicle_state_registered"/>
+        </record>
+
+        <record id="vehicle_5" model="vehicles.vehicle">
+            <field name="license_plate">1-MER-001</field>
+            <field name="vin_sn">789546128</field>
+            <field name="model_id" ref="fleet.model_classa"/>
+            <field name="state_id" ref="vehicle_state_to_order"/>
+        </record>
+
+    </data>
+</odoo>
